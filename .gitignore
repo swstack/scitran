@@ -22,3 +22,8 @@
 
 # PyCharm Config
 .idea/
+
+# VirtualEnv
+.env/
+.env2/
+.env3/

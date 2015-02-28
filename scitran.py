@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # pip install --target lib docker-py requests sh toml
 

@@ -50,6 +50,12 @@ git clone https://github.com/scitran/testdata.git code/testdata
 
 ```
 
+One-liner:
+
+```
+git clone https://github.com/scitran/api.git code/api; git clone https://github.com/scitran/data.git code/data; git clone https://github.com/scitran/sdm.git code/sdm; git clone https://github.com/scitran/testdata.git code/testdata
+```
+
 Finally, boot your local instance:
 
 ```

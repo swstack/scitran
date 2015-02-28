@@ -1,0 +1,6 @@
+# TODO: Freeze these versions
+
+docker-py
+requests
+sh
+toml

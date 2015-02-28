@@ -3,14 +3,18 @@
 # pip install --target lib docker-py requests sh toml
 
 # Ensure python can find the lib folder holding local packages
-import sys,os
+import sys
+import os
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "lib"))
 
 # Stldib imports
-import argparse, glob
+import argparse
+import glob
 
 # Local imports
-import requests, sh, toml
+import requests
+import sh
+import toml
 from docker import Client as DockerClient
 
 # Run script from location of this script

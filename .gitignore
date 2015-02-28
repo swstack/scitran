@@ -5,6 +5,7 @@
 /lib/
 /graph
 
+
 # Generated and distribution files
 /*.pem
 /api/key+cert.pem
@@ -18,3 +19,6 @@
 
 # Distribution
 /*.tar
+
+# PyCharm Config
+.idea/

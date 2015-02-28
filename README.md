@@ -29,8 +29,7 @@ If you plan to work on SciTran, clone this repository and install our dependenci
 git clone https://github.com/scitran/scitran.git && cd scitran
 
 sudo apt-get install -y python-pip
-sudo pip install --upgrade  pip
-sudo pip install --target lib --upgrade docker-py requests sh toml
+./bootstrap.sh
 ```
 
 Download the release as above, but you only need two folders:
